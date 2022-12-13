@@ -5,7 +5,7 @@ window.onload = () => {
     // Hide the loading screen after all content has loaded
     setTimeout(() => {
       document.getElementById("loading-screen").style.display = "none";
-    }, 000); // 6000 milliseconds = 6 second
+    }, 7000); // 6000 milliseconds = 6 second
   }
 
 
