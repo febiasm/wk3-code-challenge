@@ -1,0 +1,55 @@
+#myContainer{
+    display: flex;
+  flex-wrap: wrap;
+  background-color: rgb(126, 17, 14);
+}
+ 
+
+ .img2 {
+    width: 450px;
+    height: 400px;
+    border-radius: 100%;
+    margin-left: 150px;
+    margin-top: 1px;
+ }
+ #loading-screen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color:#234051;
+    background-image: url("https://cdn.dribbble.com/users/652746/screenshots/1773134/media/696dcd80cde2911185f71f299167d7fe.gif" );
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 999;
+ 
+  }
+  
+  
+  .loading-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-size: 3rem;
+    color: #fff;
+  }
+  
+  h1 {
+    position: absolute;
+    top: 75%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    transform: translateY(-50%);
+    font-size: 1.5rem;
+    color: rgb(0, 0, 0);
+  }
+  #dropdownMenuButton{
+    position: relative;
+    left: 1800%;
+    margin-top: 10px;
+  }
+   
