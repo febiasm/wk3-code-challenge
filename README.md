@@ -15,7 +15,7 @@ Click on this link to run the application.
 
     https://wk3-code-challenge.vercel.app/
 
-This web page consists of a list of movies each with a different show time and limited number of tickets.
+This web page consists of a list of movies listed on the left side of the page each with a different show time and limited number of tickets.
 
 A user can buy a ticket for an intrested movie by clicking on the buy ticket button 
 

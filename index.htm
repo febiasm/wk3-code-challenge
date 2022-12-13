@@ -4,15 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-       <!-- link to the stylesheet for the website -->
+ 
+    <!-- Linked CSS file -->
     <link rel="stylesheet" href="/style/style.css">
     <link rel="stylesheet" href="/style/bootstrap.css">
     <title>Flatdango</title>
 </head>
 <body>
 
-  <section>
-    <!-- loading screen that appears while the page is loading -->
+ 
+ <!-- Loading screen container with gift and loading message -->
+ <section class="loadingScreen">
     <div id="loading-screen">
        <div class="loading-icon">
     <i class="fa fa-spinner fa-spin fa-3x"></i>
@@ -21,60 +23,52 @@
 </div>
 
 </section>
+ 
+   <!-- side navigation bar -->
+    <section class="navigationBars"> 
+      <div class="sidenav">
+         <!-- tittles for all fils  -->
+         <h3>Available movies
+          🍿🎥</h3>
+        <a href="#" id="film-titles"></a>
+      </div>
 
-<section>
-        <!-- navigation bar at the top of the page -->
+    <div class="main">
+         <!-- navigation bar at the top of the page -->
     <nav class="navbar bg-dark">
         
       
-        <div class="container-fluid">
-            <ul class="navbar-nav me-auto d-flex flex-row">
-            <li class="nav-item me-5">
-                   <!-- brand name for the website -->
-            <a class="navbar-brand text-light font-monospace fs-1" a href="/index.htm">Flatdango</a>
-        </li>
-        <li class="nav-item ">
-            <!-- dropdown menu for links to social media and contact information -->
-            <div class="dropdown">
-              <button class="btn btn-secondary dropdown-toggle" id="dropdownMenuButton" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                links
-              </button>
-              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                <li><a class="dropdown-item" href="https://www.instagram.com/_.febias/?hl=en">Instagream</a></li>
-                <li><a class="dropdown-item" href="https://www.facebook.com/">Facebook</a></li>
-                <li><a class="dropdown-item" href="https://twitter.com/i/flow/login">Twitter</a></li>
-                <li><a class="dropdown-item" href="#">Mobile number: 0799330305</a></li>
-              </ul>
-            </div>
-          </li> 
-         </div>  
-           
-    </nav>
-
+      <div class="container-fluid">
+          <ul class="navbar-nav me-auto d-flex flex-row">
+          <li class="nav-item me-5">
+    
+          <a class="navbar-brand text-light font-monospace fs-1" a href="/index.htm">Flatdango</a>
+      </li>
+      <li class="nav-item ">
+  <!-- dropdown menu for links to social media and contact information -->
+          <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" id="dropdownMenuButton" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+              links
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <li><a class="dropdown-item" href="https://www.instagram.com/_.febias/?hl=en">Instagream</a></li>
+              <li><a class="dropdown-item" href="https://www.facebook.com/">Facebook</a></li>
+              <li><a class="dropdown-item" href="https://twitter.com/i/flow/login">Twitter</a></li>
+              <li><a class="dropdown-item" href="#">Mobile number: 0799330305</a></li>
+            </ul>
+          </div>
+        </li> 
+       </div>        
+  </nav>
+   <!-- container for page main conntent  -->
+        <div id="myContainer"></div>   
+      </div>
+  
     </section>
 
-    <section> 
-    <!-- container for page main conntent  -->
-      <div id="myContainer"></div>   
-
-      <!-- <div class="card" style="width: 18rem;"> -->
-        <!-- <img src="" class="card-img-top"> -->
-        <!-- <div class="card-body">
-          <h4 class="card-title"></h4>
-          <p class="card-text"></p>
-          <h6 class="ranTime"></h6> 
-          <h6 class="showTime"></h6>
-          <h6 class="available-tickets"></h6>
-          
-          <a href="#" class="btn btn-primary">Go somewhere</a>
-           -->
-        <!-- </div> -->
-      <!-- </div> -->
-
-    </section>
-
-  <section>
-      <!-- footer that appears at the bottom of th page -->
+  <section class="pgFooter">
+ 
+      <!-- Footer with links to code license and data source -->
       <footer class="bd-footer  py-md-2   bg-dark">
         <div class="container py-4 py-md-1 px-4 px-md-3">
           <div class="row">

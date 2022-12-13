@@ -5,7 +5,7 @@ window.onload = () => {
     // Hide the loading screen after all content has loaded
     setTimeout(() => {
       document.getElementById("loading-screen").style.display = "none";
-    }, 6000); // 6000 milliseconds = 6 second
+    }, 000); // 6000 milliseconds = 6 second
   }
 
 
@@ -19,7 +19,10 @@ fetch(URL)
   // Convert the response to a JavaScript object
   .then(data => {
    const films = data.record.films;
+   const filmList = document.querySelector('#film-titles');
 
+   // Loop over the films array and create a list item for each film
+   
        // Get the container element from the HTML page
     const container = document.querySelector('#myContainer');
 
@@ -32,7 +35,12 @@ fetch(URL)
         const showtime = film.showtime
         const capacity = film.capacity
         const ticketsSold = film.tickets_sold
-
+      
+            const li = document.createElement('button');
+            li.className='bn'
+            li.innerHTML = tittle;
+            filmList.appendChild(li);
+          
         // Calculate the number of available tickets
         let Availabletickets =  capacity - ticketsSold
        
