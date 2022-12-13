@@ -3,7 +3,9 @@
   flex-wrap: wrap;
   background-color: rgb(126, 17, 14);
 }
- 
+ *{
+  background-color: ;
+ }
 
  .img2 {
     width: 450px;

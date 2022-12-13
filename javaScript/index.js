@@ -9,7 +9,7 @@ window.onload = () => {
   }
 
 
-const URL = "https://api.npoint.io/d6235e8798df3b64dc3f"
+const URL = "https://api.jsonbin.io/v3/b/6398650d2d0e0021081bbe17"
 
 
 // Send a GET request to the specified URL and return a promise
@@ -18,7 +18,7 @@ fetch(URL)
 
   // Convert the response to a JavaScript object
   .then(data => {
-   const films = data.films;
+   const films = data.record.films;
 
        // Get the container element from the HTML page
     const container = document.querySelector('#myContainer');
